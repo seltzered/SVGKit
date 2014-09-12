@@ -121,16 +121,6 @@ int ddLogLevel = LOG_LEVEL_WARN;
 #endif
 #endif
 
-+ (int)internalLogLevel
-{
-	return ddLogLevel;
-}
-
-+ (void)setInternalLogLevel:(int)newLogLevel
-{
-	ddLogLevel = (newLogLevel & LOG_LEVEL_VERBOSE);
-}
-
 + (void)initialize
 {
 	static BOOL initialized = NO;
