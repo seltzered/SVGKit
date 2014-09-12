@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.framework = 'QuartzCore', 'CoreText'
   s.dependency 'CocoaLumberjack'
   s.ios.prefix_header_file = 'XCodeProjectData/SVGKit-iOS/SVGKit-iOS-Prefix.pch'
-  s.osx.prefix_header_file = 'XCodeProjectData/SVGKit-OSX/SVGKit-Prefix.pch'
+  s.osx.prefix_header_file = 'XCodeProjectData/SVGKit-OSX/SVGKit-OSX-Prefix.pch'  
 
   s.requires_arc = true
   s.xcconfig = {
