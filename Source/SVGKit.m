@@ -7,27 +7,28 @@
 //
 
 #import <SVGKit/SVGKit.h>
-#import "DDTTYLogger.h"
-#import "DDASLLogger.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
+//#import "DDTTYLogger.h"
+//#import "DDASLLogger.h"
 
-#if DEBUG
-#define DEFAULT_LOG_LEVEL LOG_LEVEL_VERBOSE;
-#else
+//#if DEBUG
+//#define DEFAULT_LOG_LEVEL LOG_LEVEL_VERBOSE;
+//#else
 #define DEFAULT_LOG_LEVEL LOG_LEVEL_WARN;
-#endif
-
-#if IS_ALSO_LUMBERJACK_LOG_LEVEL
-int ddLogLevel = DEFAULT_LOG_LEVEL;
-#define ddLogLevelInternal ddLogLevel
-#else
+//#endif
+//
+//#if IS_ALSO_LUMBERJACK_LOG_LEVEL
+//int ddLogLevel = DEFAULT_LOG_LEVEL;
+//#define ddLogLevelInternal ddLogLevel
+//#else
 static DDLogLevel ddLogLevelInternal = DEFAULT_LOG_LEVEL;
-int SVGCurrentLogLevel()
-{
-	return ddLogLevelInternal;
-}
-#endif
-
-#undef DEFAULT_LOG_LEVEL
+//int SVGCurrentLogLevel()
+//{
+//	return ddLogLevelInternal;
+//}
+//#endif
+//
+//#undef DEFAULT_LOG_LEVEL
 
 @implementation SVGKit : NSObject
 
