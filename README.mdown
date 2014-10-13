@@ -125,7 +125,9 @@ Note that there is a naming conflict with one of OS X's headers, specifically a 
     #include <CoreServices/CoreServices.h>
     #undef Comment
 
-If you are using XCode 5 or 6.0.1 on mavericks, you may need to also add the following to your headers or prefix files to support the use of NS_DESIGNATED_INITIALIZER
+Also note that using Objective C modules support introduced in Xcode 5 may cause similar build failures.
+
+If you are using a Base SDK earlier than 10.10, you may need to also add the following to your headers or prefix files to support the use of NS_DESIGNATED_INITIALIZER
 
     #ifndef NS_DESIGNATED_INITIALIZER
     #if __has_attribute(objc_designated_initializer)
@@ -134,8 +136,6 @@ If you are using XCode 5 or 6.0.1 on mavericks, you may need to also add the fol
     #define NS_DESIGNATED_INITIALIZER
     #endif
     #endif
-
-Also note that using Objective C modules support introduced in Xcode 5 may cause similar build failures.
 
 ## Usage - OS X
 
