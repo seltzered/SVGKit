@@ -650,8 +650,6 @@
 		5563201619B670DD0097D2EF /* SVGKSourceNSData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5563201419B670DD0097D2EF /* SVGKSourceNSData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5563201719B670DD0097D2EF /* SVGKSourceNSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5563201519B670DD0097D2EF /* SVGKSourceNSData.m */; };
 		5563201819B670DD0097D2EF /* SVGKSourceNSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5563201519B670DD0097D2EF /* SVGKSourceNSData.m */; };
-		5568CD4C177B6B2000047B7A /* Lumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5568CD2F177B69B700047B7A /* Lumberjack.framework */; };
-		5568CD50177B6B3A00047B7A /* Lumberjack.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 5568CD2F177B69B700047B7A /* Lumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		556CACC919D5C37C00DAEFCA /* SVGKit-all.h in Headers */ = {isa = PBXBuildFile; fileRef = 556CACC819D5C37C00DAEFCA /* SVGKit-all.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		556CACCA19D5C37C00DAEFCA /* SVGKit-all.h in Headers */ = {isa = PBXBuildFile; fileRef = 556CACC819D5C37C00DAEFCA /* SVGKit-all.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		556CACF719D644FA00DAEFCA /* SVGClipPathElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F2685819B66C6500F6410E /* SVGClipPathElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -708,7 +706,6 @@
 		55C360AF1781E8DD00BA24FA /* SVGKFastImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B4D79D173EC58700D2C676 /* SVGKFastImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55C361A11782102900BA24FA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5540E66F17387C9F004029EF /* Cocoa.framework */; };
 		55C361A5178212F800BA24FA /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C361A4178212F600BA24FA /* libxml2.dylib */; };
-		55C361AA178214A300BA24FA /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F3267B178156EF0064271D /* CoreFoundation.framework */; };
 		55C53D8C1940B9CC00649455 /* SVGKExporterNSData.h in Headers */ = {isa = PBXBuildFile; fileRef = 55C53D861940B9CC00649455 /* SVGKExporterNSData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55C53D8D1940B9CC00649455 /* SVGKExporterNSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C53D871940B9CC00649455 /* SVGKExporterNSData.m */; };
 		55C53D8E1940B9CC00649455 /* SVGKExporterNSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C53D871940B9CC00649455 /* SVGKExporterNSData.m */; };
@@ -745,19 +742,10 @@
 		55F2686219B66C8E00F6410E /* TinySVGTextAreaElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F2686019B66C8E00F6410E /* TinySVGTextAreaElement.m */; };
 		55F2686319B66C8E00F6410E /* TinySVGTextAreaElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F2686019B66C8E00F6410E /* TinySVGTextAreaElement.m */; };
 		55F3267A178156770064271D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F32679178156770064271D /* QuartzCore.framework */; };
-		55F3267E178159960064271D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5540E67417387C9F004029EF /* Foundation.framework */; };
-		55F32680178159BA0064271D /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5540E67217387C9F004029EF /* AppKit.framework */; };
 		FB4DB6FB5B36F9D35291B209 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5FE421435B9949756BD9B7 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5568CD4D177B6B2700047B7A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5540E66317387C9E004029EF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5568CD2E177B69B700047B7A;
-			remoteInfo = Lumberjack;
-		};
 		55825B4819EC80C400635497 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5540E66317387C9E004029EF /* Project object */;
@@ -919,7 +907,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5568CD50177B6B3A00047B7A /* Lumberjack.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1146,7 +1133,6 @@
 		5563201419B670DD0097D2EF /* SVGKSourceNSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKSourceNSData.h; sourceTree = "<group>"; };
 		5563201519B670DD0097D2EF /* SVGKSourceNSData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGKSourceNSData.m; sourceTree = "<group>"; };
 		5563201919B675A80097D2EF /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/libxml2.dylib; sourceTree = DEVELOPER_DIR; };
-		5568CD2F177B69B700047B7A /* Lumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		556CACC819D5C37C00DAEFCA /* SVGKit-all.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SVGKit-all.h"; path = "Source/SVGKit-all.h"; sourceTree = SOURCE_ROOT; };
 		5574ADA917889CA000EA4281 /* SVGKSource-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SVGKSource-private.h"; path = "Source/SVGKSource-private.h"; sourceTree = SOURCE_ROOT; };
 		55788778178892D30021D775 /* SVGKImage-private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SVGKImage-private.h"; path = "Source/SVGKImage-private.h"; sourceTree = SOURCE_ROOT; };
@@ -1234,7 +1220,6 @@
 			files = (
 				55C361A5178212F800BA24FA /* libxml2.dylib in Frameworks */,
 				55F3267A178156770064271D /* QuartzCore.framework in Frameworks */,
-				5568CD4C177B6B2000047B7A /* Lumberjack.framework in Frameworks */,
 				55C361A11782102900BA24FA /* Cocoa.framework in Frameworks */,
 				FB4DB6FB5B36F9D35291B209 /* libPods.a in Frameworks */,
 			);
@@ -1249,16 +1234,6 @@
 				55CCBF2419BA739B00957A39 /* QuartzCore.framework in Frameworks */,
 				55CCBF2919BA748E00957A39 /* Foundation.framework in Frameworks */,
 				55CCBF2319BA739600957A39 /* CoreImage.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5568CD2B177B69B700047B7A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55F3267E178159960064271D /* Foundation.framework in Frameworks */,
-				55F32680178159BA0064271D /* AppKit.framework in Frameworks */,
-				55C361AA178214A300BA24FA /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1324,7 +1299,6 @@
 			isa = PBXGroup;
 			children = (
 				5540E66C17387C9F004029EF /* SVGKit.framework */,
-				5568CD2F177B69B700047B7A /* Lumberjack.framework */,
 				5542C821193BBEB90046BB14 /* libSVGKit-iOS.1.2.0pre.a */,
 				551164AB1970EE8B00C8A63D /* SVGKit.framework */,
 				55825B4119EC80C400635497 /* SVGKit-iOS Framework Tests.xctest */,
@@ -2061,13 +2035,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5568CD2C177B69B700047B7A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -2104,7 +2071,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				5568CD4E177B6B2700047B7A /* PBXTargetDependency */,
 			);
 			name = "SVGKit-OS X";
 			productName = SVGKit;
@@ -2127,24 +2093,6 @@
 			productName = "SVGKit-iOS";
 			productReference = 5542C821193BBEB90046BB14 /* libSVGKit-iOS.1.2.0pre.a */;
 			productType = "com.apple.product-type.library.static";
-		};
-		5568CD2E177B69B700047B7A /* Lumberjack */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5568CD3D177B69B700047B7A /* Build configuration list for PBXNativeTarget "Lumberjack" */;
-			buildPhases = (
-				5568CD2A177B69B700047B7A /* Sources */,
-				5568CD2B177B69B700047B7A /* Frameworks */,
-				5568CD2C177B69B700047B7A /* Headers */,
-				5568CD2D177B69B700047B7A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Lumberjack;
-			productName = Lumberjack;
-			productReference = 5568CD2F177B69B700047B7A /* Lumberjack.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 		55825B4019EC80C400635497 /* SVGKit-iOS Framework Tests */ = {
 			isa = PBXNativeTarget;
@@ -2216,7 +2164,6 @@
 			targets = (
 				5540E66B17387C9F004029EF /* SVGKit-OS X */,
 				55825B5019EC80D400635497 /* SVGKit-OS X Tests */,
-				5568CD2E177B69B700047B7A /* Lumberjack */,
 				5542C820193BBEB90046BB14 /* SVGKit-iOS */,
 				551164AA1970EE8B00C8A63D /* SVGKit-iOS Framework */,
 				55825B4019EC80C400635497 /* SVGKit-iOS Framework Tests */,
@@ -2240,13 +2187,6 @@
 				5540E814173881BF004029EF /* InfoPlist.strings in Resources */,
 				5586007F17851F8A00CB3D85 /* LICENSE in Resources */,
 				5586008017851F8A00CB3D85 /* README.mdown in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5568CD2D177B69B700047B7A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2636,13 +2576,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5568CD2A177B69B700047B7A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		55825B3D19EC80C400635497 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2664,11 +2597,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5568CD4E177B6B2700047B7A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5568CD2E177B69B700047B7A /* Lumberjack */;
-			targetProxy = 5568CD4D177B6B2700047B7A /* PBXContainerItemProxy */;
-		};
 		55825B4919EC80C400635497 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 551164AA1970EE8B00C8A63D /* SVGKit-iOS Framework */;
@@ -2957,40 +2885,6 @@
 			};
 			name = Release;
 		};
-		5568CD3B177B69B700047B7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = NO;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Source/Vendor/Lumberjack/Lumberjack-Prefix.pch";
-				INFOPLIST_FILE = "Source/Vendor/Lumberjack/Lumberjack-Info.plist";
-				INSTALL_PATH = "@rpath";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Debug;
-		};
-		5568CD3C177B69B700047B7A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = NO;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Source/Vendor/Lumberjack/Lumberjack-Prefix.pch";
-				INFOPLIST_FILE = "Source/Vendor/Lumberjack/Lumberjack-Info.plist";
-				INSTALL_PATH = "@rpath";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Release;
-		};
 		55825B4B19EC80C400635497 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3097,15 +2991,6 @@
 			buildConfigurations = (
 				5542C840193BBEBA0046BB14 /* Debug */,
 				5542C841193BBEBA0046BB14 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5568CD3D177B69B700047B7A /* Build configuration list for PBXNativeTarget "Lumberjack" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5568CD3B177B69B700047B7A /* Debug */,
-				5568CD3C177B69B700047B7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
