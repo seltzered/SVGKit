@@ -7,4 +7,10 @@
    <FileRef
       location = "group:Demo-OSX.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:SVGKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
 </Workspace>
