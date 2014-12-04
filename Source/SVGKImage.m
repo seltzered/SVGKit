@@ -763,7 +763,7 @@ static inline NSString *exceptionInfo(NSException *e)
 	debugStr = [NSString stringWithFormat:@", call stack symbols: %@",e.callStackSymbols];
 #endif
 	
-	return [NSString stringWithFormat:@"Exception name: \"%@\" reason: %@%@", e.name, e.reason, (ddLogLevel & LOG_FLAG_INFO) == LOG_FLAG_INFO ? debugStr : @""];
+	return [NSString stringWithFormat:@"Exception name: \"%@\" reason: %@%@", e.name, e.reason, (ddLogLevel & DDLogFlagInfo) == DDLogFlagInfo ? debugStr : @""];
 }
 
 -(CALayer *)CALayerTree
