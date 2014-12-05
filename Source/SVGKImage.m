@@ -123,7 +123,7 @@
 	if( pathToFileInBundle == nil
 	   && pathToFileInDocumentsFolder == nil )
 	{
-		DDLogCWarn(@"[%@] MISSING FILE (not found in App-bundle, not found in Documents folder), COULD NOT CREATE DOCUMENT: filename = %@, extension = %@", [self class], newName, extension);
+		DDLogWarn(@"[%@] MISSING FILE (not found in App-bundle, not found in Documents folder), COULD NOT CREATE DOCUMENT: filename = %@, extension = %@", [self class], newName, extension);
 		return nil;
 	}
 	
