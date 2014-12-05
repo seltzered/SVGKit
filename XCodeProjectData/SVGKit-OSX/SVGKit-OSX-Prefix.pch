@@ -31,7 +31,7 @@
 	#endif
 
 	#define IS_ALSO_LUMBERJACK_LOG_LEVEL 0
-	#import "SVGKit_logging.pch"
+	#import "SVGKit_logging.h"
 #endif
 
 
