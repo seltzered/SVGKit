@@ -1,5 +1,11 @@
-source 'https://github.com/CocoaPods/Specs.git'
+xcodeproj 'Demo-iOS.xcodeproj'
 
-podspec :path => "SVGKit.podspec"
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
 
-xcodeproj 'SVGKit-iOS.xcodeproj'
+target 'Demo-iOS' do
+
+podspec :path => 'SVGKit.podspec'
+
+end
+
