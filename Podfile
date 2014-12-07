@@ -5,7 +5,7 @@ xcodeproj 'Demo-iOS.xcodeproj'
 
 target 'Demo-iOS' do
 
-podspec :path => 'SVGKit.podspec'
+pod 'SVGKit', :path => '.'
 
 end
 
